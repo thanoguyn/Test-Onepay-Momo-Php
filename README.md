@@ -23,6 +23,9 @@ Mỗi tệp tin cổng thanh toán chứa các tính năng sau:
 - **Xác thực chữ ký:** Hỗ trợ tách và phân tích các tham số được trả về từ phía MoMo/OnePAY, tự động tính toán lại Token/Signature (Mã băm an toàn) chuẩn SHA256 cho bạn đối chiếu.
 - **Truy vấn trạng thái đơn hàng (QueryDR):** Gửi cURL lên Server để lấy kết quả hiện tại của một giao dịch cụ thể đối chiếu theo Mã đơn hàng (OrderId).
 
+![momo](img/momo.png)
+![onepay](img/onepay.png)
+
 ## 4. Lưu Ý Quan Trọng
 - Các thông số Sandbox (như Access Key, Secret Key, Merchant) được gắn sẵn trong code chỉ mang tính chất test. Tuyệt đối **không** dùng chúng trên API Thực tế (Production).
 - Hãy đối chiếu tài liệu code trong tệp tin để ráp vào backend (Laravel/CodeIgniter/PHP thuần) của bạn tương ứng.
